@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuinagar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="/dist/style.css" />
+</head>
+
+<body>
+    <div>
+
+        <!-- !NAV STARTS HERE -->
+
+        <nav class="bg-red w-full max-h-[115px]">
+            <div class="flex justify-between items-center mt-[-12px] mx-[70px] lg:mx-[100px] 2xl:mx-auto max-w-[1560px]">
+                <img class="w-[83px] my-3 h-[83px]" src="./img/logo.png" alt="" srcset="">
+                <ul class="lg:flex text-white gap-[67px] hidden  mt-3 text-sm ">
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[55px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Home</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[51px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Menu</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[66px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Service</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[45px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Food</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[63px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Sign In</a> </li>
+                    <li>
+                        <div class="relative">
+                            <i class="text-white fa-solid fa-store"></i>
+                            <div
+                                class="w-[15px] text-black text-[13px] flex justify-center items-center bg-white rounded-full h-[15px] absolute -top-[6px] left-[7px]">
+                                2
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+
+                <div class="lg:hidden flex gap-4 items-center mt-3">
+                    <i id="menu" class="text-white text-sm fa-sharp fa-solid fa-bars"></i>
+                    <i id="cross" class="hidden text-white text-base fa-solid fa-xmark"></i>
+                    <div class="relative">
+                        <i class="text-white fa-solid fa-store"></i>
+                        <div
+                            class="w-[15px] text-black text-[13px] flex justify-center items-center bg-white rounded-full h-[15px] absolute -top-[6px] left-[7px]">
+                            2
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+
+        <!-- !NAV ENDS HERE -->
+
+
+        <!-- !MAIN STARTS HERE -->
+
+
+        <main class="relative">
+            <div id="respNev" class="bg-red invisible w-full py-4 -mt-1 absolute z-10">
+                <ul class="flex flex-col justify-center items-center text-white gap-5 lg:hidden  mt-3 text-sm ">
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[55px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Home</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[51px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Menu</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[66px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Service</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[45px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Food</a> </li>
+                    <li class="relative"><a
+                            class="hover:after:content-[' '] opacity-75 hover:opacity-100 after:h-[1px] after:w-[0px] hover:after:w-[63px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                            href="#">Sign In</a> </li>
+                </ul>
+            </div>
+            <div
+                class="2xl:mx-auto mx-[100px] flex flex-col justify-center items-center max-w-full 2xl:max-w-[1560px] h-full relative">
+
+
+                <!-- !SECTION 2 STARTS -->
+                <div class="flex flex-col mt-[60px] gap-8 mb-[82px] items-center">
+                    <h2 class="font-[600] text-base text-center">1/12 M.A. Rahim Road, Kushtia</h2>
+                    <div
+                        class="relative lg:w-[770px] w-375px sm:w-670px h-[65px] rounded-[10px] shadow-lg shadow-[0px 0px 17px rgba(0, 0, 0, 0.45)]">
+                        <input class="ml-[26px] lg:w-[649px] w-254px sm:w-649px h-[65px] outline-none" type="text"
+                            name="" id="">
+                        <div class="absolute top-[19px] flex items-center  left-[26px] gap-[20px]">
+                            <img class="w-[25px] h-[26px] " src="./img/searchIcon.png">
+                            <h2 class="text-sm font-[600]">Search</h2>
+                        </div>
+                        <img class="absolute top-[14px] right-[22px] w-[50px] h-[37px]" src="./img/trigarIcon.png">
+                    </div>
+                </div>
+                <!-- !SECTION 2 ENDS -->
+
+<div class="relative">
+    <ul class="lg:flex pb-10 text-white gap-[67px]  -mt-7 text-sm ">
+        <li class="relativetext-center text-black text-[15px] mb-1 bg-white border border-black  px-4 py-2 rounded "><a
+                class="hover:after:content-[' '] opacity-75 hover:opacity-100 hover:after:w-[55px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                href="#">BREAKFAST</a> </li>
+        <li class="relative text-center text-black text-[15px] mb-1 bg-white border border-black  px-4 py-2 rounded "><a
+                class="hover:after:content-[' '] opacity-75 hover:opacity-100 hover:after:w-[51px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                href="#">LUNCH</a> </li>
+        <li class="relative text-center text-black text-[15px] mb-1 bg-white border border-black  px-4 py-2 rounded "><a
+                class="hover:after:content-[' '] opacity-75 hover:opacity-100 hover:after:w-[66px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                href="#">DINNER</a> </li>
+        <li class=" text-center text-black text-[15px] mb-1 bg-white border border-black  px-4 py-2 rounded  relative"><a
+                class="hover:after:content-[' '] opacity-75 hover:opacity-100 hover:after:w-[45px] after:duration-500 after:bg-white after:absolute after:top-[22px] after:right-[0px]"
+                href="#">POPULAR</a> </li>
+       
+    </ul>
+</div>
+
+
+
+
+                <!-- !SECTION 3 STARTS -->
+                <div class="flex flex-col items-center text-center mb-[80px]">
+                    <h3 class="text-base font-bold mb-12">Most Popular Food Items</h3>
+
+                    <!-- !Card SECTION 1 STARTS-->
+                    <div class="grid lg:grid-cols-2 2xl:grid-cols-3 gap-11 mb-[58px] ml-6 xs:ml-0">
+
+                        <!-- !cards -->
+                        <div
+                            class="w-[300px] xs:w-full xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/1.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/2.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/3.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/4.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/5.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection1Img/6.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[300px] xs:w-full  xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/1.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/2.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/3.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/4.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/5.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="xl:w-[485px] xl:h-[485px] md:w-[385px] md:h-[385px] shadow-md shadow-[ 0px 2px 30px rgba(0, 0, 0, 0.1)] rounded-[35px]">
+                            <img class="mb-[16px] rounded-t-[35px] object-cover" src="./img/cardSection2Img/6.png">
+                            <div class="flex justify-between items-center mx-4 md:mx-8 mb-4 md:mb-0">
+                                <div class="flex flex-col gap-4 text-start">
+                                    <h2 class="xl:text-base text-sm font-bold">Gyro Sandwhic</h2>
+                                    <button
+                                        class="text-xs text-white xl:w-[135px] xl:h-[44px] w-[105px] h-[34px] rounded-[35px] bg-red">Add
+                                        To
+                                        Cart</button>
+                                </div>
+                                <div class="flex flex-col gap-[25px] -mt-2 md:mt-0">
+                                    <div class="flex gap-[10px]">
+                                        <i class="fa-sharp fa-solid fa-star text-red"></i>
+                                        <p class="text-xs font-[400]">4.9</p>
+                                    </div>
+                                    <h3 class="xl:text-sm text-xs font-[500]">$15.00</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- !Card SECTION 1 STARTS-->
+
+                    <button
+                        class="ml-6 md:ml-0 bg-red flex gap-6 items-center w-[200px] h-[50px] md:w-[278px] md:h-[74px] rounded-[37px]">
+                        <p class="ml-6 md:text-sm text-xs font-[500] text-white ">See More Product</p>
+                        <img class="md:w-[58px] md:h-[58px] w-[28px] h-[28px]" src="./img/roundedArrow.png">
+                    </button>
+                </div>
+
+            </div>
+        </main>
+        <footer
+            class=" px-[80px] pb-5 xs:px-[180px] bg-red text-white grid sm:grid-cols-2 xl:grid-cols-4 items-center gap-[40px] xl:gap-[162px]">
+            <div class=" flex flex-col -mt-4 -ml-5">
+                <img class=" w-[83px] my-5 h-[83px]" src="./img/logo.png">
+                <p class="text-xs leading-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo libero viverra dapibus odio sit
+                    malesuada in quis. Arcu tristique elementum viverra integer id.
+                </p>
+                <div class="flex gap-2 pt-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="mt-0 -ml-5 mb-0">
+                <h1 class="footerHeading">Opening Restaurant</h1>
+                <p class="mt-8 text-xs leading-5">Sat-Wet: 09:00am-10:00PM
+                    Thursdayt: 09:00am-11:00PM
+                    Friday: 09:00am-8:00PM
+                </p>
+            </div>
+            <div class="-ml-5 mt-0 flex flex-col gap-3">
+                <h1 class="footerHeading -mt-3">User Link</h1>
+                <p class="mt-2 text-xs leading-5">
+                    About Us <br />
+                    Contact Us <br />
+                    Order Delivery <br />
+                    Payment & Tex <br />
+                    Terms of Services
+                </p>
+            </div>
+            <div class="-ml-5 flex mt-[5px] flex-col gap-2">
+                <h1 class="footerHeading">Contact Us</h1>
+                <p class="text-xs leading-5">
+                    1234 Country Club Ave
+                    NC 123456, London, UK
+                    +0123 456 7891
+                </p>
+                <div class="-ml-1">
+                    <input class="pl-2 outline-none rounded-[32.5px] text-black" type="email" placeholder="  Email">
+                    <button
+                        class="bg-red rounded-full border border-black text-[14px] px-4 mt-3 shadow-lg shadow-[0px 0px 170px rgba(0, 0, 0, 0.45)]">submit</button>
+                </div>
+
+            </div>
+        </footer>
+        <!-- !MAIN ENDS HERE -->
+    </div>
+
+
+    <script>
+        const menu = document.querySelector('#menu');
+        const cross = document.querySelector('#cross');
+        const respNev = document.querySelector('#respNev');
+
+
+        menu.addEventListener('click', function () {
+            menu.classList.toggle('hidden');
+            cross.classList.toggle('hidden');
+            respNev.classList.toggle('invisible');
+        })
+
+        cross.addEventListener('click', function () {
+            menu.classList.toggle('hidden');
+            cross.classList.toggle('hidden');
+            respNev.classList.toggle('invisible');
+        })
+    </script>
+</body>
+
+</html>
